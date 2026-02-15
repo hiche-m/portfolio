@@ -1,0 +1,6 @@
+- Services Icons
+- Portfolio Logo thumbnail
+- Portfolio project info Perplexity
+API Integration
+- Full name in footer
+- Socials Icons in footer

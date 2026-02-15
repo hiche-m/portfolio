@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom utilities for neu-brutalist style */
+.border-3 {
+  border-width: 3px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+/* Hand-drawn arrow */
+.arrow-doodle {
+  position: relative;
+}
+
+.arrow-doodle::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  transform: rotate(45deg);
+  top: 50%;
+  right: -25px;
+}
+
+.arrow-doodle::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  transform: rotate(-45deg);
+  top: 50%;
+  right: -25px;
+}
+
+/* Scribble animations */
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+.wiggle:hover {
+  animation: wiggle 0.5s ease-in-out;
+}
+
+/* Custom hover effects for cards */
+.neu-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.neu-card:hover {
+  transform: translateY(-8px) rotate(0deg) !important;
+  box-shadow: 12px 12px 0px 0px rgba(0, 0, 0, 1);
+}
+
+/* Sticky note effect */
+.sticky-note {
+  position: relative;
+  background: linear-gradient(45deg, transparent 10px, #fef08a 10px);
+}
+
+.sticky-note::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid #000;
+  border-top: 10px solid transparent;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .text-7xl { font-size: 3rem; }
+  .text-6xl { font-size: 2.5rem; }
+  .text-5xl { font-size: 2rem; }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+button:focus,
+a:focus {
+  outline: 3px solid #fbbf24;
+  outline-offset: 2px;
+}

@@ -1,0 +1,213 @@
+{
+  "personal": {
+    "name": "Hichem M. Rahmani",
+    "title": "Flutter Developer",
+    "heroHeadline": "I build 🚀 production-grade Flutter apps",
+    "heroSubheadline": "Developing and engineering scalable, pixel-perfect mobile experiences with Flutter for startups and growing businesses.",
+    "email": "hichem_rahmani@outlook.com",
+    "phone": "+370 6179 2865",
+    "location": "Vilnius, Lithuania"
+  },
+  "services": [
+    {
+      "id": 1,
+      "title": "Flutter App Development",
+      "description": "Building production-ready Flutter applications with clean, scalable architectures and robust state management.",
+      "icon": "flutter"
+    },
+    {
+      "id": 2,
+      "title": "API & Backend Integration",
+      "description": "Integrating REST/GraphQL APIs and backends (NestJS, Django, PostgreSQL) into performant mobile apps.",
+      "icon": "api"
+    },
+    {
+      "id": 3,
+      "title": "Release & Store Management",
+      "description": "Managing Play Store/App Store releases, versioning, Shorebird hotfixes, and weekly update cycles.",
+      "icon": "store"
+    },
+    {
+      "id": 4,
+      "title": "Performance & Code Quality",
+      "description": "Improving app performance, adding automated tests, and maintaining clean Git/GitHub workflows.",
+      "icon": "automation"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Yas Home",
+      "category": "Mobile Development",
+      "company": "Yas’Home",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "Cubit",
+        "Provider",
+        "SharedPreferences",
+        "Dio",
+        "Lottie",
+        "NestJS",
+        "PostgreSQL",
+        "Shorebird",
+        "GitHub",
+        "Play Store",
+        "App Store"
+      ],
+      "actions": [
+        {
+          "label": "🔗 Company Website",
+          "url": "https://yas-home.com/"
+        },
+        {
+          "label": "🔗 Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.yashome.app&pcampaignid=web_share"
+        },
+        {
+          "label": "🔗 App Store",
+          "url": "https://apps.apple.com/us/app/yas-home/id6754520633"
+        }
+      ],
+      "description": "Built and maintained a production Flutter app with feature-first architecture for Yas’Home, integrating a NestJS/PostgreSQL backend via Dio and using BLoC/Cubit for state management. Managed weekly Play Store/App Store releases with Shorebird hotfixes, pixel-perfect UI collaboration, and integration tests for stable updates.",
+      "images": [
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771186819/yas_home_thumb_rik0sh.jpg",
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771166162/yashome_1_lldvay.png",
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771166163/yashome_2_wqvdfr.png",
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771166163/yashome_3_zoqiyo.png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Izar",
+      "category": "Mobile Development",
+      "company": "Crafts and Code",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "GraphQL",
+        "Mono-repo Architecture",
+        "Middleware",
+        "ViewModels",
+        "Redux",
+        "Provider",
+        "GitHub",
+        "Flutter Tests"
+      ],
+      "actions": [
+        {
+          "label": "🔗 Client Website",
+          "url": "https://www.izar.world/en/blog"
+        }
+      ],
+      "description": "Contributed to multiple Flutter projects in mono-repo setups (App, UI, Data/State) for Crafts and Code under international NDA including the Izar app, integrating GraphQL APIs and middleware-based ViewModels. Collaborated in daily Discord stand-ups, handled GitHub issues/PRs, and wrote Flutter tests to keep deployments stable. Store links and app details cannot be shared publicly as they are protected by the NDA.",
+      "images": [
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771186819/izar_thumb_pluort.jpg",
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771166161/izar_1_x5rqul.png",
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771166162/izar_2_zy5idj.png",
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771166161/izar_3_zclys8.png"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Livri",
+      "category": "Full-Stack & Mobile",
+      "company": "Livri LLC",
+      "technologies": [
+        "React Native",
+        "Redux",
+        "Django",
+        "Python",
+        "PostgreSQL",
+        "Next.js",
+        "Docker",
+        "NGINX",
+        "GitHub",
+        "GitHub Actions",
+        "Cloudflare"
+      ],
+      "actions": [
+        {
+          "label": "🔗 Company Website",
+          "url": "https://livri.tech/"
+        },
+        {
+          "label": "🔗 Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.livri.Livri"
+        },
+        {
+          "label": "🔗 App Store",
+          "url": "https://apps.apple.com/app/livri/id6747878713"
+        }
+      ],
+      "description": "Maintained and enhanced a full-stack B2B platform for a San Francisco-based startup with Berlin and Algeria ties, delivering features and fixes across Django/PostgreSQL backend, React Native app, and Next.js dashboard. Improved security and reliability with captchas, Cloudflare integration, and NGINX/Docker optimizations using GitHub Actions for automated deployments.",
+      "images": [
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771186822/livri_thumb_uzq4ei.jpg",
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771166161/livri1_zfspyk.png",
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771166160/livri_2_juygn9.png",
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771166161/livri_3_c2a4f0.png"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Pharma Express",
+      "category": "Mobile & Full-Stack Development & Design",
+      "company": "Pharma Express",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Provider",
+        "BLoC",
+        "MVVM",
+        "l10n",
+        "Push Notifications",
+        "Alarms",
+        "Figma",
+        "Electron",
+        "React",
+        "Redux",
+        "useContext",
+        "Tailwind CSS",
+        "Express.js",
+        "Node.js",
+        "Mapbox",
+        "Google Maps"
+      ],
+      "actions": [
+        {
+          "label": "🔗 Company Website",
+          "url": "https://pharmaexpress.app/"
+        }
+      ],
+      "description": "Co-founded and led mobile development for Pharma Express, a platform where patients scan prescriptions in a Flutter app and nearby pharmacies receive them in an Electron/React desktop app. Built the Flutter app with MVVM, Provider/BLoC, localization, notifications, and medication alarms, and designed both mobile and desktop UIs in Figma. Integrated an Express.js backend and Mapbox/Google Maps to match patients with nearby pharmacies, track request status, and confirm pickup with clear prescription details and UX-optimized flows.",
+      "images": [
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771186819/pharma_express_thumb_cwffp0.jpg",
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771166162/pharma_exp_1_hag24p.png",
+        "https://res.cloudinary.com/dusniu53x/image/upload/v1771166161/pharma_exp_3_u9spn9.png"
+      ]
+    }
+  ],
+  "social": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/hiche-m/",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/hiche-m/",
+      "icon": "github"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/hichem_rhm/",
+      "icon": "instagram"
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/hichem.ra7m",
+      "icon": "facebook"
+    }
+  ]
+}
