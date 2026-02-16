@@ -103,9 +103,6 @@ function App() {
       collectionId: import.meta.env.VITE_API_COLLECTION_ID,
     }
 
-    console.log(apiData);
-    
-    
     const formData = new FormData(e.currentTarget);
     const contactData = {
       name: formData.get('name'),
@@ -146,6 +143,18 @@ function App() {
       const contactSection = document.getElementById('contact-form');
       if (contactSection) {
         contactSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+        });
+      }
+    }, 100);
+  };
+
+  const scrollToPortfolio = () => {
+    setTimeout(() => {
+      const portfolioSection = document.getElementById('portfolio');
+      if (portfolioSection) {
+        portfolioSection.scrollIntoView({ 
         behavior: 'smooth',
         block: 'start'
         });
@@ -230,7 +239,7 @@ function App() {
             </p>
             
             <button 
-              onClick={scrollToContact}
+              onClick={scrollToPortfolio}
               className="bg-pink-300 text-black px-8 py-4 text-xl font-bold border-4 border-black hover:bg-pink-400 transition-all transform hover:-translate-y-2 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]"
             >
               See Portfolio
@@ -246,7 +255,7 @@ function App() {
       </section>
 
       {/* Services Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white border-y-4 border-black">
+      <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-white border-y-4 border-black">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-black text-center mb-16 transform -rotate-1">
             What I Do Best
