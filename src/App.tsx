@@ -27,6 +27,7 @@ interface PortfolioData {
     category: string;
     company: string;
     technologies: string[];
+    headline: string;
     actions: Array<{
       label: string;
       url: string;
@@ -303,7 +304,7 @@ function App() {
                   <div className="flex items-start justify-between">
                     <div>
                       <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                      <p className="text-gray-600 font-semibold">{project.category}</p>
+                      <p className="text-gray-600 font-semibold">{project.headline}</p>
                     </div>
                     <button 
                       onClick={() => openProjectDialog(project)}

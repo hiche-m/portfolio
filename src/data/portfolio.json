@@ -70,6 +70,7 @@
           "url": "https://apps.apple.com/us/app/yas-home/id6754520633"
         }
       ],
+      "headline": "Production Flutter home-services app with feature-first MVVM/BLoC architecture, weekly store releases, and pixel-perfect UI integrated with a NestJS/PostgreSQL backend.",
       "description": "Built and maintained a production Flutter app with feature-first architecture for Yas’Home, integrating a NestJS/PostgreSQL backend via Dio and using BLoC/Cubit for state management. Managed weekly Play Store/App Store releases with Shorebird hotfixes, pixel-perfect UI collaboration, and integration tests for stable updates.",
       "images": [
         "https://res.cloudinary.com/dusniu53x/image/upload/v1771186819/yas_home_thumb_rik0sh.jpg",
@@ -99,9 +100,18 @@
         {
           "label": "🔗 Client Website",
           "url": "https://www.izar.world/en/blog"
+        },
+        {
+          "label": "🔗 Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.izar.izar_app&hl=en"
+        },
+        {
+          "label": "🔗 App Store",
+          "url": "https://apps.apple.com/il/app/izar/id6744096270"
         }
       ],
-      "description": "Contributed to multiple Flutter projects in mono-repo setups (App, UI, Data/State) for Crafts and Code under international NDA including the Izar app, integrating GraphQL APIs and middleware-based ViewModels. Collaborated in daily Discord stand-ups, handled GitHub issues/PRs, and wrote Flutter tests to keep deployments stable. Store links and app details cannot be shared publicly as they are protected by the NDA.",
+      "headline": "Enterprise Flutter app in a mono-repo architecture, using GraphQL, middleware-based ViewModels, and tests to ship stable features for an NDA-protected Norwegian client.",
+      "description": "Contributed to multiple Flutter projects in mono-repo setups (App, UI, Data/State) for Crafts and Code under international NDA including the Izar app, integrating GraphQL APIs and middleware-based ViewModels. Collaborated in daily Discord stand-ups, handled GitHub issues/PRs, and wrote Flutter tests to keep deployments stable.",
       "images": [
         "https://res.cloudinary.com/dusniu53x/image/upload/v1771186819/izar_thumb_pluort.jpg",
         "https://res.cloudinary.com/dusniu53x/image/upload/v1771166161/izar_1_x5rqul.png",
@@ -141,6 +151,7 @@
           "url": "https://apps.apple.com/app/livri/id6747878713"
         }
       ],
+      "headline": "Full-stack B2B platform combining a Django/PostgreSQL backend, React Native app, and Next.js dashboard, with hardened security and automated deployments via Docker, NGINX, and GitHub Actions.",
       "description": "Maintained and enhanced a full-stack B2B platform for a San Francisco-based startup with Berlin and Algeria ties, delivering features and fixes across Django/PostgreSQL backend, React Native app, and Next.js dashboard. Improved security and reliability with captchas, Cloudflare integration, and NGINX/Docker optimizations using GitHub Actions for automated deployments.",
       "images": [
         "https://res.cloudinary.com/dusniu53x/image/upload/v1771186822/livri_thumb_uzq4ei.jpg",
@@ -180,6 +191,7 @@
           "url": "https://pharmaexpress.app/"
         }
       ],
+      "headline": "Prescription delivery platform where a Flutter mobile app, Electron/React desktop client, and Express.js backend work together to match patients with nearby pharmacies, track pickups, and manage medication reminders.",
       "description": "Co-founded and led mobile development for Pharma Express, a platform where patients scan prescriptions in a Flutter app and nearby pharmacies receive them in an Electron/React desktop app. Built the Flutter app with MVVM, Provider/BLoC, localization, notifications, and medication alarms, and designed both mobile and desktop UIs in Figma. Integrated an Express.js backend and Mapbox/Google Maps to match patients with nearby pharmacies, track request status, and confirm pickup with clear prescription details and UX-optimized flows.",
       "images": [
         "https://res.cloudinary.com/dusniu53x/image/upload/v1771186819/pharma_express_thumb_cwffp0.jpg",
@@ -198,16 +210,6 @@
       "platform": "GitHub",
       "url": "https://github.com/hiche-m/",
       "icon": "github"
-    },
-    {
-      "platform": "Instagram",
-      "url": "https://www.instagram.com/hichem_rhm/",
-      "icon": "instagram"
-    },
-    {
-      "platform": "Facebook",
-      "url": "https://www.facebook.com/hichem.ra7m",
-      "icon": "facebook"
     }
   ]
 }
